@@ -1,4 +1,4 @@
-# Project 03: Accessibility and Design Choices
+# AI Hiring Bias Website
 
 ## Accessibility Practice
 - Used **relative font units (`rem`)** for all text.
@@ -31,3 +31,4 @@
 
 **Summary**:  
 Using `rem` units, clear layout patterns, CRAP principles, and responsive design, this site is **modern, readable, and accessible** for users of all abilities.
+
