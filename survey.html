@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey - AI Hiring Bias</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header-wrapper">
+        <div class="site-header">
+            <a href="index.html" class="site-title">AI Bias in Hiring</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="proxies.html">Proxies</a></li>
+                    <li><a href="resume_review.html">Resume Review</a></li>
+                    <li><a href="advertisements.html">Advertisements</a></li>
+                    <li class="is-current"><a href="survey.html">Survey</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>AI Opinion Survey</h1>
+        </section>
+
+        <section class="card">
+            <form method="post" action="#" class="simple-form">
+                <fieldset>
+                    <legend>Demographics</legend>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <label for="ethnicity">Ethnicity</label>
+                            <select id="ethnicity" name="ethnicity">
+                                <option value="">Prefer not to say</option>
+                                <option value="asian">Asian</option>
+                                <option value="black">Black/African American</option>
+                                <option value="hispanic">Hispanic/Latino</option>
+                                <option value="white">White</option>
+                                <option value="other">Other</option>
+                            </select>
+                </fieldset>
+                <fieldset>
+                    <legend>AI Questions</legend>
+                <!-- Question 1 -->
+                <div class="form-question">
+                    <label>1. Have you used an AI hiring system?</label>
+                    <div class="form-options">
+                        <label>
+                            <input type="radio" name="ai-experience" value="yes"> Yes, as a job seeker
+                        </label>
+                        <label>
+                            <input type="radio" name="ai-experience" value="no"> No, never
+                        </label>
+                        <label>
+                            <input type="radio" name="ai-experience" value="unsure"> Not sure
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="form-question">
+                    <label>2. Do you think AI hiring systems are fair?</label>
+                    <div class="form-options">
+                        <label>
+                            <input type="radio" name="fairness" value="yes"> Yes, very fair
+                        </label>
+                        <label>
+                            <input type="radio" name="fairness" value="somewhat"> Somewhat fair
+                        </label>
+                        <label>
+                            <input type="radio" name="fairness" value="no"> No, biased
+                        </label>
+                        <label>
+                            <input type="radio" name="fairness" value="dont-know"> Don't know
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="form-question">
+                    <label>3. Which concerns you? (Select all that apply)</label>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" name="concerns[]" value="bias"> Algorithm bias
+                        </label>
+                        <label>
+                            <input type="checkbox" name="concerns[]" value="privacy"> Privacy
+                        </label>
+                        <label>
+                            <input type="checkbox" name="concerns[]" value="human"> Lack of human review
+                        </label>
+                        <label>
+                            <input type="checkbox" name="concerns[]" value="none"> Not concerned
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="form-question">
+                    <label>4. Should AI hiring systems be regulated?</label>
+                    <div class="form-options">
+                        <label>
+                            <input type="radio" name="regulation" value="yes"> Yes, strictly
+                        </label>
+                        <label>
+                            <input type="radio" name="regulation" value="somewhat"> Some regulation
+                        </label>
+                        <label>
+                            <input type="radio" name="regulation" value="no"> No regulation needed
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="form-question">
+                    <label for="comments">5. Any comments? (Optional)<br></label>
+                    <textarea id="comments" name="comments" rows="3" placeholder="Share your thoughts..."></textarea>
+                </div>
+                </fieldset>
+
+                <!-- Submit -->
+                <div class="form-submit">
+                    <button type="submit">Submit Survey</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
