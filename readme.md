@@ -1,34 +1,28 @@
 # AI Hiring Bias Website
 
-## Accessibility Practice
-- Used **relative font units (`rem`)** for all text.
-  - Body font: `1.125rem`
-  - Headings and paragraphs scale proportionally
-  - Buttons, labels, and other text also use `rem`
-- This allows users to **resize text easily** without breaking layout, helping those with visual impairments.
+A front-end website that explores the topic of AI bias in hiring, with an emphasis on accessible and user-friendly design.
 
-## Page Layout Patterns
-- **Home page (hero banner)**: follows a **Z-pattern** (page title, nav, hero text)
-- **Internal pages**: follow a **Gutenberg/F-pattern** (headings and content cards guide the eye)
+## Project Description
 
-## CRAP Principles
-- **Contrast**: dark text on light background; accent colors for hover/focus
-- **Repetition**: consistent use of colors, shadows, padding, and rounded corners
-- **Alignment**: headings, nav, and cards aligned for predictable reading
-- **Proximity**: related content grouped together (headings + intro, side-by-side images)
+This project presents information about how artificial intelligence can influence hiring decisions and potentially introduce bias. The site is built as a static front-end project and focuses on clarity, layout, and accessibility rather than backend functionality.
 
-## Typography Choices
-- **Fonts**: `Inter` for body, `Georgia` for headings
-- **Line-height**: 1.6 for easy reading
-- **Max-width**: 60 characters per line for readability
-- **`rem` units**: scalable and accessible across devices
+A sample survey is included to demonstrate user interaction. The survey does **not** submit or store responses and is intended as an example only.
 
-## Other Design Decisions
-- **Hero banner**: centered overlay text on home page
-- **Sticky navigation**: always visible at the top
-- **Responsive design**: media queries adjust layout and font sizes for tablets and mobiles
-- **Cards & side-by-side elements**: flexible layouts using flexbox
+## Technologies Used
 
-**Summary**:  
-Using `rem` units, clear layout patterns, CRAP principles, and responsive design, this site is **modern, readable, and accessible** for users of all abilities.
+- HTML for semantic structure  
+- CSS for layout, styling, and responsive design  
+- JavaScript for basic interactivity  
+- Local image assets for visual content  
 
+## Design & Accessibility
+
+- Text sizing uses relative units (`rem`) to support scaling and accessibility  
+- Consistent typography and spacing for readability  
+- High-contrast color choices and clear visual hierarchy  
+- Responsive layout that adapts to different screen sizes  
+
+## Current Scope
+
+- Static front-end only  
+- No backend, database, or form submission logic
