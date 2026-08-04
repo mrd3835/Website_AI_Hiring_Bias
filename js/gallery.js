@@ -1,6 +1,6 @@
 var images = [
   { src: "images/people_header.jpg", alt: "A diverse group of cartoon people smiling" },
-  { src: "images/scale_header.jpg", alt: "A man and a woman sit on a scale, showing inequality" }
+  // { src: "images/scale_header.jpg", alt: "A man and a woman sit on a scale, showing inequality" }
 ];
 
 var i = 0;
